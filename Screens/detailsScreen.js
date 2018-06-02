@@ -3,15 +3,12 @@ import { StyleSheet, Text, View, Button } from 'react-native';
 
 import { createStackNavigator } from 'react-navigation';
 
-
-class DetailsScreen extends React.Component {
-    render() {
-      return (
+const DetailsScreen = () => {
+    return (
         <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-          <Text>Details Screen</Text>
+            <Text>Details Screen</Text>
         </View>
-      );
-    }
-  }
+        );
+}
 
-  export default DetailsScreen
+export default DetailsScreen
