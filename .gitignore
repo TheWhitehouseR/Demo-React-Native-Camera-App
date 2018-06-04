@@ -61,3 +61,6 @@ typings/
 .next
 
 **/build/**
+
+**/xcuserdata/**
+ios/cameraapp\.xcodeproj/project\.xcworkspace/contents\.xcworkspacedata
